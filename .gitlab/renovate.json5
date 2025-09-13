@@ -1,0 +1,13 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "dependencyDashboard": true,
+    "major": {
+      "dependencyDashboardApproval": true
+    },
+    "ignoreDeps": [
+      "python", 
+      "node", 
+      "996097627176.dkr.ecr.us-east-1.amazonaws.com/zapier/python-node", 
+      "996097627176.dkr.ecr.us-east-1.amazonaws.com/zapier/sphinx",
+    ]
+}
