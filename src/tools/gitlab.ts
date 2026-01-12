@@ -10,7 +10,7 @@ export const getGitlabMergeRequestsTool: Tool = {
       // full_paths: {
       //   type: ["array"],
       //   description:
-      //     "Array of full paths of the gitlab project (eg. zapier/team-enterprise-experience/assetmanagement)",
+      //     "Array of full paths of the gitlab project (eg. assetmanagement)",
       //   items: {
       //     type: "string",
       //   },
@@ -18,7 +18,7 @@ export const getGitlabMergeRequestsTool: Tool = {
       // full_paths: {
       //   type: "string",
       //   description:
-      //     "Array of full paths of the gitlab project (eg. zapier/team-enterprise-experience/assetmanagement)",
+      //     "Array of full paths of the gitlab project (eg. assetmanagement)",
       // },
       username: {
         type: "string",
@@ -47,7 +47,7 @@ export const getGitlabCommentsTool: Tool = {
       // full_paths: {
       //   type: ["array"],
       //   description:
-      //     "Array of full paths of the gitlab project (eg. zapier/team-enterprise-experience/assetmanagement)",
+      //     "Array of full paths of the gitlab project (eg. assetmanagement)",
       //   items: {
       //     type: "string",
       //   },
@@ -55,7 +55,7 @@ export const getGitlabCommentsTool: Tool = {
       // full_paths: {
       //   type: "string",
       //   description:
-      //     "Array of full paths of the gitlab project (eg. zapier/team-enterprise-experience/assetmanagement)",
+      //     "Array of full paths of the gitlab project (eg. assetmanagement)",
       // },
       username: {
         type: "string",

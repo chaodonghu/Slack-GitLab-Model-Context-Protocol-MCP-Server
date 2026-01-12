@@ -103,12 +103,12 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
         // Hardcode full paths for now
         const fullPaths = args.full_paths || [
-          "zapier/team-enterprise-experience/account-management",
-          "zapier/team-enterprise-experience/assetmanagement",
-          "zapier/team-enterprise-experience/zhwdailysummarizer",
-          "zapier/team-enterprise-experience/reporting",
-          "zapier/team-enterprise-experience/zap-management",
-          "zapier/design-systems/design-system-bff",
+          "account-management",
+          "assetmanagement",
+          "zhwdailysummarizer",
+          "reporting",
+          "zap-management",
+          "design-systems/design-system-bff",
         ];
 
         const mergeRequests = await Promise.all(
@@ -139,12 +139,12 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
         // Hardcode full paths for now
         const fullPaths = args.full_paths || [
-          "zapier/team-enterprise-experience/account-management",
-          "zapier/team-enterprise-experience/assetmanagement",
-          "zapier/team-enterprise-experience/zhwdailysummarizer",
-          // "zapier/team-enterprise-experience/reporting",
-          "zapier/team-enterprise-experience/zap-management",
-          // "zapier/design-systems/design-system-bff",
+          "account-management",
+          "assetmanagement",
+          "zhwdailysummarizer",
+          // "reporting",
+          "zap-management",
+          // "design-systems/design-system-bff",
         ];
 
         const gitlabComments = await Promise.all(
@@ -176,9 +176,9 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
         // Hardcode full paths for now
         const fullPaths = [
-          "zapier/team-enterprise-experience/account-management",
-          "zapier/team-enterprise-experience/assetmanagement",
-          "zapier/team-enterprise-experience/zhwdailysummarizer",
+          "account-management",
+          "assetmanagement",
+          "zhwdailysummarizer",
         ];
 
         const mergeRequests = await Promise.all(
